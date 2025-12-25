@@ -1,0 +1,57 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+#display {
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#display{
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-background-filter:blur(50px);
+    width:100%;
+    color:rgb(96, 70, 3);
+
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+.btn{
+    background-color: rgb(176, 101, 47);
+    color: rgb(34, 28, 28);
+    font-family: verdana;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 18px;
+    margin:10px;
+    text-align: center;
+    border:none;
+    padding:15px;
+    cursor:pointer;
+}
+.btn:active{
+    color: brown;
+    background-color: cornsilk;
+
+}
